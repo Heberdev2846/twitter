@@ -3,9 +3,9 @@ import Navbar from '../app/components/Navbar'
 
 export default function Home() {
   return (
-    <main>
+    <div id='container'>
        <Navbar /> 
-    </main>
+    </div>
   )
 }
 
