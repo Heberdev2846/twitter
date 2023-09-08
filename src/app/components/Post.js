@@ -13,7 +13,7 @@ function Post() {
           className="rounded-full"
         />
         <p className="ml-4 font-bold">Heber Dev</p>
-        <p className="ml-2 text-gray-400">@heberdev</p>
+        <p className="ml-2 text-zinc-600">@heberdev</p>
         <p className="ml-2 text-gray-400">·</p>
         <p className="ml-2 text-gray-400">1h</p>
         <button className="bg-black hover:bg-blue-700 text-white font-bold px-3 rounded-full ml-80">

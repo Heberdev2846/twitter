@@ -4,7 +4,7 @@ import Centro from "./components/Centro";
 
 export default function Home() {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between w-1/3">
       <Navbar />
       <Centro />
       <Navbarder />

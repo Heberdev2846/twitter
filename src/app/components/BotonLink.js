@@ -5,7 +5,7 @@ function BotonLink({ texto }) {
     <div className="border-b border-zinc-900 w-1/2 ">
       <a
         href="/"
-        className="flex items-center mt-10 pl-32 pb-4 pt-4 bg-black hover:bg-zinc-900 text-white"
+        className="flex items-center mt-4 pl-32 pb-4 pt-4 bg-black hover:bg-zinc-900 text-white"
       >
         <span className="">{texto}</span>
       </a>

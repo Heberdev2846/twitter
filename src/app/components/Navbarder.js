@@ -5,7 +5,7 @@ import TrendsList from "./TrendsList";
 
 function Navbarder() {
   return (
-    <div className="flex flex-col mt-2">
+    <div className="flex flex-col p-4">
       <SearchInput />
       <div className="mt-4 ml-6 mr-4 p-4 rounded-xl bg-zinc-900 ">
         <h1 className="mb-2 font-bold text-xl">Suscríbete a Premium</h1>
