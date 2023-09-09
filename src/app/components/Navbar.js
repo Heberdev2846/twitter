@@ -37,23 +37,34 @@ function Navbar() {
         <div className="flex pr-8 rounded-full ">
           <div className="flex">
             <Image
-            src="/foto.jpg"
-            width={40}
-            height={40}
-            alt="Picture of the author"
-            className="rounded-full ml-2 mt-4 mb-4"
+              src="/foto.jpg"
+              width={40}
+              height={40}
+              alt="Picture of the author"
+              className="rounded-full ml-2 mt-4 mb-4"
             />
             <div className="mt-3 ml-3">
-              <div className="float-left">Heber</div>
+              <div className="float-left font-semibold">Heber</div>
               <div className="text-zinc-500 text-sm">@HeberNietoDev</div>
             </div>
           </div>
           <div className="flex">
-            <svg className="ml-20 mt-6 "
-            width="20px"
-            height="20px"
-            viewBox="0 0 24 24" aria-hidden="true" class="r-1nao33i r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr" speechify-initial-font-size="15px" ><g speechify-initial-font-size="15px" >
-            <path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z" speechify-initial-font-size="15px" stroke="#ffffff"></path></g>
+            <svg
+              className="ml-20 mt-6 "
+              width="20px"
+              height="20px"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="r-1nao33i r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"
+              speechify-initial-font-size="15px"
+            >
+              <g speechify-initial-font-size="15px">
+                <path
+                  d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+                  speechify-initial-font-size="15px"
+                  stroke="#ffffff"
+                ></path>
+              </g>
             </svg>
           </div>
         </div>

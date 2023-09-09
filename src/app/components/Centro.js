@@ -23,13 +23,13 @@ function Centro() {
           className="rounded-full ml-2 mt-4"
         />
         <div>
-          <button className="bg-black hover:bg-blue-700 text-blue-400 font-bold px-6 rounded-full border ml-4 mt-3">
+          <button className="bg-black hover:bg-blue-700 text-blue-400 font-bold px-6 rounded-full border border-zinc-700 ml-4 mt-3">
             Todos
           </button>
         </div>
       </div>
       <input
-        className="bg-black ml-14 mt-6 text-lg"
+        className="bg-black ml-14 mt-4 text-lg"
         type="text"
         placeholder="¡¿Qué está pasando?!"
       />
@@ -41,8 +41,9 @@ function Centro() {
         <ListaIconos />
         <BotonPostear />
       </div>
-      
-      <p className="text-center p-4 mt-3 border-t border-zinc-900 text-blue-400">Mostrar .. posts</p>
+      <p className="text-center p-4 mt-3 border-t border-zinc-900 text-blue-400">
+        Mostrar 70 posts
+      </p>
       <Post />
     </div>
   );

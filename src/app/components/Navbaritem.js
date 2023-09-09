@@ -4,7 +4,7 @@ import React from "react";
 
 function Navbaritem({ name, icon, type }) {
   let imageSource;
-  
+
   if (type === "jpg") {
     imageSource = `/img/${icon}.jpg`;
   } else {
